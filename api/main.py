@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Query
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-import json
 
 app = FastAPI()
 
