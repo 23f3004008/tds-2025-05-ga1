@@ -1,0 +1,4 @@
+{
+    "builds": [{ "src": "ga2api.py", "use": "@vercel/python" }],
+    "routes": [{ "src": "/(.*)", "dest": "ga2api.py" }]
+  }
