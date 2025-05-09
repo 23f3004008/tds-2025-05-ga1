@@ -1,6 +1,14 @@
+name: Simple Workflow
+
+on:
+  push:
+    branches:
+      - main  # This will trigger the workflow when there is a push to the 'main' branch
+
 jobs:
   test:
+    runs-on: ubuntu-latest
+
     steps:
       - name: 23f3004008@ds.study.iitm.ac.in
         run: echo "Hello, world!"
-      
